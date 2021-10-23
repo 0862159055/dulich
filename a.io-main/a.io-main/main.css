@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:"Roboto" sans-serif;
+	
+}
+
+.container{
+    width: 985px;
+    margin:  0 auto;
+}
+header{
+    width:100%px;
+    height:110px;
+    background: rgb(255 196 0 / 68%);
+}
+header img{
+    padding-left: 20px;
+    width: 170px;
+    height: 110px;
+    bottom: 10px;
+    
+}
+
+nav{
+    width: 100%px;
+    height: 40px;
+    background: #23237f;
+    margin-bottom: 5px;
+}
+nav ul{
+list-style: none;
+margin-bottom: 5px;
+}
+nav ul li{
+  float: left;  
+  line-height: 28px;
+  padding: 0 10px;
+  color: aliceblue;
+  
+  font-size: 15px;
+  text-decoration: none;
+}
+nav .search{
+    line-height: 35px;
+    float:right;
+    margin: right 25px;
+}
+article ul{
+    list-style: none;
+}
+article ul li{
+    float: left;
+    line-height: 28px;
+    padding: 0 10px;
+    color: saddlebrown;
+}
+article .tieude{
+    text-align: center;
+    color: red;
+    padding: 15px 0px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+article .Loimodau{
+    text-align: center;
+    color: green;
+    padding: 15px 0px;
+    font-size: 15px;
+    text-transform: uppercase;
+  
+}
+article .Gioithieu{
+    text-align: left;
+    color: black;
+    font-size: 20px;
+  font-style: italic;
+  padding-left: 10px;
+}
+#slideshow {
+    overflow: hidden;
+    height: 426px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .slide-wrapper {
+    width: 2912px;
+    -webkit-animation: slide 14s ease infinite;
+  }
+  
+  .slide {
+    float: left;
+    height: 510px;
+    width: 800px;
+  }
+  
+  
+  @-webkit-keyframes slide {
+    0% {margin-left: 0px;}
+    50% {margin-left: -800px;}
+    50% {margin-left: -800px;}
+    60% {margin-left: -1456px;}
+    80% {margin-left: -1456px;}
+  }
+article.Newlist{
+    text-align: center;
+    color: blue;
+    font-size: 15px;
+    padding: 15px 0px;
+}
+	.map {
+		width: 290px;
+		height: 350px;
+		padding-left: 324px;
+	}
+	.khung1
+	{
+	background-color: #f6f5e1d6;
+    margin-top: 30px;
+	margin-left: 38px;
+    width: 900px;
+    height: 680px;
+    box-shadow: #b689343a 0px 10px 30px 0px;
+    border-radius: 10px;
+    box-sizing: border-box;
+	}
+	.all1{
+	background-color: #7ec45f
+	}
+	.dacdiem{
+    margin-left: 120px;
+	}
+	.khung2{
+	background-color: #f6f5e1d6;
+    margin-top: 30px;
+	margin-left: 38px;
+    width: 900px;
+    height: 550px;
+    box-shadow: #b689343a 0px 10px 30px 0px;
+    border-radius: 10px;
+    box-sizing: border-box;		
+	}
